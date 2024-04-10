@@ -12,6 +12,15 @@ import {
     edeploy,
     ufgd,
     csgoflix,
+    python,
+    datadog,
+    newrelic,
+    aws,
+    kafka,
+    oracledb,
+    postgresql,
+    redis,
+    kubernetes
 } from "../assets";
 
 export const navLinks = [
@@ -64,6 +73,42 @@ const technologies = [
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "Datadog",
+        icon: datadog,
+    },
+    {
+        name: "New Relic",
+        icon: newrelic,
+    },
+    {
+        name: "Amazon AWS",
+        icon: aws,
+    },
+    {
+        name: "Apacke Kafka",
+        icon: kafka,
+    },
+    {
+        name: "Kubernetes",
+        icon: kubernetes,
+    },
+    {
+        name: "OracleDB",
+        icon: oracledb,
+    },
+    {
+        name: "PostgreSQL",
+        icon: postgresql,
+    },
+    {
+        name: "Redis",
+        icon: redis,
     },
 ];
 
