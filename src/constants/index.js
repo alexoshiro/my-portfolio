@@ -7,6 +7,10 @@ import {
     git,
     docker,
     ifood,
+    recargapay,
+    equiplano,
+    edeploy,
+    ufgd,
     csgoflix,
 } from "../assets";
 
@@ -74,7 +78,63 @@ const experiences = [
             "Development and maintenance projects for logistics team, impacting performance indicators for own fleet deliveries",
             "Help to improve and keep low costs in engineer infrastructure",
             "Help and spread knowledge between all the engineer team.",
-            "Technologies: Java 11+, Nodejs, Python, Spring Framework, Datadog, New Relic, Amazon AWS stack, PostgreSQL"
+            "Technologies: Java 11+, Nodejs, Python, Spring Framework, Datadog, New Relic, Amazon AWS stack, PostgreSQL, RabbitMQ, Kubernetes, Docker, Kafka, Microservices"
+        ],
+    },
+    {
+        title: "Senior Software Engineer",
+        company_name: "RecargaPay",
+        icon: recargapay,
+        iconBg: "#383E56",
+        date: "February 2021 - June 2022",
+        points: [
+            "Development and maintenance of all the in house softwares, more focused in payments system.",
+            "Work closely with PO and Tech Lead to maintain optimum levels of communication to effectively and efficiently complete projects.",
+            "Resolve problems, improve operations and provide exceptional service.",
+            "Help and spread knowledge between all the engineer team.",
+            "Technologies: Java 11+, Nodejs, Python, Spring Framework, Datadog, New Relic, Amazon AWS stack, PostgreSQL, Kubernetes, Docker, Kafka, Microservices"
+        ],
+    },
+    {
+        title: "Senior Java Software Engineer",
+        company_name: "Equiplano",
+        icon: equiplano,
+        iconBg: "#383E56",
+        date: "December 2020 - January 2021",
+        points: [
+            "Development and maintenance of the tax system and taxpayer portal.",
+            "Technologies: Java 6+, VRaptor, JSF, PostgreSQL"
+        ],
+    },
+    {
+        title: "Senior Java Backend Developer",
+        company_name: "E-deploy",
+        icon: edeploy,
+        iconBg: "#383E56",
+        date: "April 2017 - November 2020",
+        points: [
+            "Development and maintenance of the back office system for the companies, Burger King Brasil, Popeyes and Dunkin Donuts.",
+            "Adjusted software parameters to boost performance and incorporate new features.",
+            "Tested programs and databases to identify issues and make necessary modifications.",
+            "Collaborated with other developers to identify and alleviate software errors and inefficiencies.",
+            "Technologies: Java 8+, Java EE, JSP, Java servlets, MVC, Oracle DB, Microsoft SQL Server"
+        ],
+    },
+    {
+        title: "Information Technology Intern",
+        company_name: "Universidade Federal da Grande Dourados",
+        icon: ufgd,
+        iconBg: "#383E56",
+        date: "April 2013 - April 2015",
+        points: [
+            "Installed and configured software and hardware.",
+            "Followed up with clients to verify optimal customer satisfaction following support engagement and problem resolution.",
+            "Addressed all questions and concerns from end users regarding the education platform.",
+            "Loaded software, granted permissions and configured hardware for new employees as part of onboarding process.",
+            "Provided Tier 1 IT support to non-technical internal users through desk side support services.",
+            "Installed, modified and repaired software and hardware to resolve technical issues.",
+            "Collaborated with other developers to identify and alleviate number of bugs and errors in software.",
+            "Technologies: Moodle, PHP, MySQL, Linux"
         ],
     }
 ];

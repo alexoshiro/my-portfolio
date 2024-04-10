@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a motivated Java backend developer with a strong commitment to learning and teamwork. I am eager to leverage my skills and enthusiasm to contribute to innovative projects and deliver impactful results!
+        I am a motivated Java software engineer with a strong commitment to learning and teamwork. I am eager to leverage my skills and enthusiasm to contribute to innovative projects and deliver impactful results!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
