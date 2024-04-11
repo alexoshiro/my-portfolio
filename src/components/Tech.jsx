@@ -1,17 +1,13 @@
 import React from "react";
 
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
-import { fadeIn } from "../utils/motion";
-
-const TechCard = ({ index, name, icon }) => (
+const TechCard = ({ name, icon }) => (
   <Tilt className='xs:w-[200px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.1, 0.25)}
+    <div
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
@@ -32,7 +28,7 @@ const TechCard = ({ index, name, icon }) => (
           {name}
         </h3>
       </div>
-    </motion.div>
+    </div>
   </Tilt>
 );
 
@@ -40,8 +36,8 @@ const TechCard = ({ index, name, icon }) => (
 const Tech = () => {
   return (
     <div className='flex flex-wrap gap-10'>
-      {technologies.map((technology, index) => (
-        <TechCard key={technology.name} index={index} {...technology} />
+      {technologies.map((technology) => (
+        <TechCard key={technology.name} {...technology} />
       ))}
     </div>
   );
