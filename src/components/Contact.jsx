@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -12,6 +11,7 @@ import { fadeIn } from "../utils/motion";
 
 import { socials } from "../constants";
 import { Link } from "react-router-dom";
+import BongoCat from "./BongoCat";
 
 const ContactCard = ({ index, name, icon, link }) => (
   <Tilt className='xs:w-[200px] w-full'>
@@ -47,9 +47,6 @@ const ContactCard = ({ index, name, icon, link }) => (
 );
 
 const Contact = () => {
-
-
-
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -70,9 +67,9 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[250px]'
       >
-        <EarthCanvas />
+        <BongoCat />
       </motion.div>
     </div>
   );
