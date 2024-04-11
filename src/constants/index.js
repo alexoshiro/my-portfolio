@@ -20,7 +20,8 @@ import {
     oracledb,
     postgresql,
     redis,
-    kubernetes
+    kubernetes,
+    devdisplay
 } from "../assets";
 
 export const navLinks = [
@@ -184,16 +185,6 @@ const experiences = [
     }
 ];
 
-const testimonials = [
-    {
-        testimonial: "...",
-        name: "...",
-        designation: "...",
-        company: "...",
-        image: "...",
-    }
-];
-
 const projects = [
     {
         name: "CSGOFlix",
@@ -215,7 +206,33 @@ const projects = [
         ],
         image: csgoflix,
         source_code_link: "https://github.com/alexoshiro/csgoflix",
+    },
+    {
+        name: "Dev Display",
+        description:
+            "Cadastro e display de localização para devs",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+            ,
+            {
+                name: "mobile",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: devdisplay,
+        source_code_link: "https://github.com/alexoshiro/devs-display",
     }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

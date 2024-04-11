@@ -27,6 +27,7 @@ import edeploy from "./company/e-deploy.png";
 import ufgd from "./company/ufgd.jpg";
 
 import csgoflix from "./csgoflix-thumbnail.png";
+import devdisplay from "./dev-dashboard.png";
 
 export {
   logo,
@@ -55,4 +56,5 @@ export {
   edeploy,
   ufgd,
   csgoflix,
+  devdisplay,
 };
