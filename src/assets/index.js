@@ -29,6 +29,9 @@ import ufgd from "./company/ufgd.jpg";
 import csgoflix from "./csgoflix-thumbnail.png";
 import devdisplay from "./dev-dashboard.png";
 
+import linkedin from "./socials/linkedin.png";
+import instagran from "./socials/instagran.png";
+
 export {
   logo,
   backend,
@@ -57,4 +60,6 @@ export {
   ufgd,
   csgoflix,
   devdisplay,
+  linkedin,
+  instagran,
 };

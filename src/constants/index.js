@@ -21,7 +21,9 @@ import {
     postgresql,
     redis,
     kubernetes,
-    devdisplay
+    devdisplay,
+    linkedin,
+    instagran
 } from "../assets";
 
 export const navLinks = [
@@ -235,4 +237,17 @@ const projects = [
     }
 ];
 
-export { services, technologies, experiences, projects };
+const socials = [
+    {
+        name: "LinkedIn",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/alex-oshiro/"
+    },
+    {
+        name: "Instagran",
+        icon: instagran,
+        link: "https://www.instagram.com/oshiro_alex/"
+    },
+];
+
+export { services, technologies, experiences, projects, socials };
